@@ -69,6 +69,12 @@ It answers two questions:
   <img src="assets/screenshots/decision.png" width="820" alt="Decision step: Worth a limited pilot, with main concern, next step and other weak answers">
 </p>
 
+## See Clarity in action
+
+A short walkthrough of the Decision and Automation Review flows using the public fictional demo data.
+
+https://github.com/user-attachments/assets/ac9b6194-5bd2-4fb3-94d9-5db948046556
+
 ## What the assessment considers
 
 **Decision** — 24 core questions across five dimensions:
