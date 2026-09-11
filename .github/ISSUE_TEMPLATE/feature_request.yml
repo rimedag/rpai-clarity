@@ -1,0 +1,21 @@
+name: Feature request
+description: Suggest an improvement to RPAI Clarity
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please do not include client names or confidential process details.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or use case
+      description: What decision or conversation are you trying to support, and what gets in the way?
+    validations:
+      required: true
+  - type: textarea
+    id: behaviour
+    attributes:
+      label: Requested behaviour
+    validations:
+      required: true

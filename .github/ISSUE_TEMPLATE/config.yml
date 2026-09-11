@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Try the interactive demo
+    url: https://demo.rpai.rs/
+    about: Walk through a completed, fictional Clarity assessment and review
+  - name: RPAI Clarity — access and demos
+    url: https://rpai.rs/
+    about: Product site, account access and booking a demo

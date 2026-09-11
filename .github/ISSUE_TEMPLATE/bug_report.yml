@@ -1,0 +1,47 @@
+name: Bug report
+description: Something in RPAI Clarity or the interactive demo does not work as expected
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please do not include client names, process details, credentials or any other confidential information.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where did it happen?
+      options:
+        - Interactive demo (demo.rpai.rs)
+        - Decision assessment
+        - Decision Brief
+        - Automation Review
+        - Review Brief
+        - Print / PDF export
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and operating system
+      placeholder: Chrome 128 on Windows 11 / Safari 17 on macOS 14
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+    validations:
+      required: true
